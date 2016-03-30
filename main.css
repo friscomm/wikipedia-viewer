@@ -1,0 +1,46 @@
+body {
+  background-color: #2E5374;
+}
+
+h1 {
+  color: #79B39D;
+}
+
+.well {
+  background-color: silver;
+}
+
+.btn {
+  background-color: #3A377D;
+  color: #7994AD; 
+}
+
+.btn:hover {
+  color: white;
+  background-color: #2E5374;
+}
+
+a {
+  color: #7994AD;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+#bigWell {
+  background-color: #2A795B;
+  border: none;
+}
+
+.search_result {
+  font-size: 24px;
+}
+
+.search_result:hover {
+  border-left: thick solid #061539;
+  background-color: #E8E8E8;
+  color: #7994AD;
+}
+
