@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta chartset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css" />
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -13,16 +14,18 @@
     <!-- Latest compiled and minified JavaScript -->
     <script
        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <h1> Wikipedia Viewer</h1>
         <div class="well" id="bigWell">
             <br>
             <div class="input-group">
               <input class="form-control" type="text" placeholder="Enter Wikipedia Search Topic Here">
-              <span class="input-group-btn"><button class= "btn btn-secondary search-btn" type = "button">Search</button></span>
+              <span class="input-group-btn"><button class= "btn btn-secondary search-btn" type = "button"><i class="fa fa-search"></i></button></span>
             </div>
             <br>
             <div class="newStuff">
