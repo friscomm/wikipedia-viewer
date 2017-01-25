@@ -1,6 +1,11 @@
 $(document).ready(function() {
 
-  let searched;
+  $("body").keypress(function(e){
+    console.log(`You pressed a key! ${e.keyCode}`);
+    if(e.keyCode == 13){
+      $(".search-btn").click();
+    }
+  })
 
   //attach search function to the button
   $(".search-btn").click(function(){
@@ -29,7 +34,6 @@ $(document).ready(function() {
         }
         //put all that data on the page
         $(".newStuff").append(combinedData);
-        searched = true;
       }
     });
   });
