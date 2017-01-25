@@ -1,9 +1,10 @@
 $(document).ready(function() {
 
   $("body").keypress(function(e){
-    console.log(`You pressed a key! ${e.keyCode}`);
+    //if they hit Enter
     if(e.keyCode == 13){
       $(".search-btn").click();
+      //this hides the keyboard on mobile after you've hit Enter or Go
       document.activeElement.blur();
     }
   })
@@ -30,6 +31,7 @@ $(document).ready(function() {
         //combine the data with some html in order to get boxes to appear that are clickable
         var combinedData = "<a href='" + link + "'>" + "<div class = 'well search_result'> " + "<div class='name'>" + title.toUpperCase() + "</div>" + description + "</div></a>";
 
+        //if you have already searched then remove the previous results before you add new ones in
         if(i==0 && emptySpace !== ''){
           $(".newStuff").html('');
         }
