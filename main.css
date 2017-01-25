@@ -1,23 +1,19 @@
 body {
-  background-color: #2E5374;
+  background-color: #80A383;
 }
 
 h1 {
-  color: #79B39D;
+  color: #D6DBDB;
+  text-align: center;
 }
 
 .well {
   background-color: silver;
 }
 
-.btn {
-  background-color: #3A377D;
-  color: #7994AD; 
-}
 
-.btn:hover {
+i{
   color: white;
-  background-color: #2E5374;
 }
 
 a {
@@ -25,8 +21,21 @@ a {
 }
 
 a:hover {
-  color: white;
   text-decoration: none;
+}
+
+.btn {
+  color: #2D2B0D;
+  background-color: #D6DBDB;
+}
+
+.btn:hover {
+  color: #2D2B0D;
+  background-color: #7994AD;
+}
+
+.name {
+  font-weight: bold;
 }
 
 #bigWell {
@@ -36,11 +45,11 @@ a:hover {
 
 .search_result {
   font-size: 24px;
+  color: #386d9c;
 }
 
 .search_result:hover {
   border-left: thick solid #061539;
   background-color: #E8E8E8;
-  color: #7994AD;
+  color: #386d9c;
 }
-
