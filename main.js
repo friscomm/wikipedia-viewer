@@ -4,6 +4,7 @@ $(document).ready(function() {
     console.log(`You pressed a key! ${e.keyCode}`);
     if(e.keyCode == 13){
       $(".search-btn").click();
+      document.activeElement.blur();
     }
   })
 
